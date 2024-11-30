@@ -1,6 +1,6 @@
-name: "新任务发布"
+name: "新需求发布"
 description: '开发任务等'
-title: "[任务]: "
+title: "[需求]: "
 labels: ["task"]
 body:
   - type: textarea
@@ -33,7 +33,7 @@ body:
 
         我们希望用户在创建 issue 时要求必须填写以下内容(暂定)
         - 作者: 昵称/github_id/xxx
-        - 类型: 可以是复选框, A/B/xxx/其他
+        - 类型: 可以是复选框，A/B/xxx/其他
         - 标题
         - 内容
 
@@ -43,7 +43,7 @@ body:
     attributes:
       label: '实现方式'
       description: '请为任务认领者提供大致的实现思路'
-      placeholder: '例如: Github 支持在 .github/ 文件夹下创建一个模板文件规定 issue 的格式'
+      placeholder: '例如：Github 支持在 .github/ 文件夹下创建一个模板文件规定 issue 的格式'
     validations:
       required: true
   - type: textarea
